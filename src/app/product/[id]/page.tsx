@@ -128,7 +128,7 @@ export default function ProductDetailPage() {
               color: "var(--primary)"
             }}
           >
-            <Edit2 size={18} /> Edit Product
+            <Edit2 size={18} /> Edit
           </button>
           <button 
             onClick={() => setIsDeleteModalOpen(true)}

@@ -5,7 +5,6 @@ import ProductList from "../components/ProductList";
 import SearchBar from "../components/SearchBar";
 import SortControls from "../components/SortControls";
 import CategoryFilter from "../components/CategoryFilter";
-import AddProductButton from "../components/AddProductButton";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -42,7 +41,6 @@ export default function Home() {
       >
         <div style={{ display: "flex", alignItems: "center", gap: "1rem", flex: 1, minWidth: "300px" }}>
           <SearchBar onSearch={handleSearch} />
-          <AddProductButton />
         </div>
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
           <CategoryFilter onCategoryChange={handleCategoryChange} />

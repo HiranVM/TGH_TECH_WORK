@@ -20,7 +20,7 @@ export default function AddProductButton() {
         }}
       >
         <Plus size={20} />
-        <span>Add Product</span>
+        <span>Add</span>
       </button>
 
       <AddProductModal
